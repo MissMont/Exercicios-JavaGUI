@@ -28,10 +28,10 @@ public class MemoryMatch {
         panel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         panel.setBackground(new Color(0,128,128));
 
-        Icon carta1 = redimensionarImagem("Carta1.jpg", 150, 150);
-        Icon carta2 = redimensionarImagem("Carta2.jpg", 150, 150);
-        Icon carta3 = redimensionarImagem("Carta3.jpg", 150, 150);
-        Icon carta4 = redimensionarImagem("Carta4.jpg", 150, 150);
+        Icon carta1 = redimensionarImagem("images/Carta1.jpg", 150, 150);
+        Icon carta2 = redimensionarImagem("images/Carta2.jpg", 150, 150);
+        Icon carta3 = redimensionarImagem("images/Carta3.jpg", 150, 150);
+        Icon carta4 = redimensionarImagem("images/Carta4.jpg", 150, 150);
 
         Icon[] icones = {
             carta1, carta1,
@@ -40,7 +40,7 @@ public class MemoryMatch {
             carta4, carta4
         };
 
-        iconeFundo = redimensionarImagem("Capa.jpg", 150, 150);
+        iconeFundo = redimensionarImagem("images/Capa.jpg", 150, 150);
 
         embaralhar(icones);
 
@@ -200,3 +200,4 @@ public class MemoryMatch {
         return new ImageIcon(imagem);
     }
 }
+
